@@ -1,0 +1,23 @@
+<student>
+    <student id="1">
+        <id value=1 />
+        <name> John Doe </name>
+        <address> H# 38, R#3, Banani, Dhaka </address>
+        <department> sales </department>
+        <salary> $20000 </salary>
+    </student>
+    <student id="2">
+        <id value=2 />
+        <name> Mark Zuckerberg </name>
+        <address> Flat# A/1, H# 20, R#18, Mirpur, Dhaka </address>
+        <department> Accounts </department>
+        <salary> $12000 </salary>
+    </student>
+    <student id="3">
+        <id value=3 />
+        <name> Ala Voski </name>
+        <address> H# 38, R#3, Motijheel </address>
+        <department> Human Resource </department>
+        <salary> $30000 </salary>
+    </student>
+</student>
