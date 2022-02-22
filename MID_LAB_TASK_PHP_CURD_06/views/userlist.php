@@ -15,6 +15,10 @@
 	<a href="../controllers/logout.php"> logout</a>
 
 	<br><br>
+
+
+
+	
 	<table border="1">
 		<tr>
 			<th>ID</th>
@@ -25,9 +29,9 @@
 		</tr>
 		<tr>
 			<td>1</td>
-			<td>Alamin</td>
+			<td>fahim</td>
 			<td>123</td>
-			<td>alamin@aiub.edu</td>
+			<td>fahim@aiub.edu</td>
 			<td>
 				<a href="edit.php?id=1"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
@@ -35,9 +39,9 @@
 		</tr>
 		<tr>
 			<td>2</td>
-			<td>Alamin</td>
+			<td>ahmed</td>
 			<td>567</td>
-			<td>xyz@aiub.edu</td>
+			<td>ahmed@aiub.edu</td>
 			<td>
 				<a href="edit.php?id=2"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
@@ -45,9 +49,9 @@
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>XYZ</td>
+			<td>aaa</td>
 			<td>234</td>
-			<td>xyz@aiub.edu</td>
+			<td>xyz@gmail.com</td>
 			<td>
 				<a href="edit.php?id=3"> EDIT </a> |
 				<a href="delete.php"> DELETE </a>
