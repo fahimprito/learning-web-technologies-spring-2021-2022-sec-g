@@ -1,0 +1,4 @@
+student|student|Student|student@gmail.com|12345678901|2022-03-01|male|Uttara, Dhaka|student|student|verified
+student|rafy6|Al Rafy|rafyhim@gmail.com|85967414254|2022-03-01|male|sfdfsf|123|123|verified
+student|hima9|Mrs Rafy|himarafy@gmail.com|85967414254|2022-03-11|female|sfdfsf|123|123|verified
+student|MdRasen|Mohammad Rasen|rasen@gmail.com|52857441966|1998-11-01|male|Dhaka|123|123|verified

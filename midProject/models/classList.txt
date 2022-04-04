@@ -1,0 +1,5 @@
+ONE01|01|A|1001|MdRasen|01630406235|aamin.hossen99@gmail.com
+ONE01|01|B|1002|Fahim Ahmed|12345678901|fahimahmed@gmail.com
+ONE03|01|C|1003|Al Rafy|85967414251|rafy@gmail.com
+TWO01|02|A|2001|Sadi Rahman|45678912320|sadi@gmail.com
+THREE03|03|A|3001|Anisul Islam|85967414258|anisul@yahoo.com

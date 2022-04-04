@@ -1,0 +1,4 @@
+teacher|alamin|Md Rasen|aamin.hossen99@gmail.com|85967414254|2022-03-02|male|sfdfsf|123|123|verified
+teacher|fahim|Fahim Ahmmed|fahimahmed@gmail.com|85967414259|2022-03-02|female|sfdfsf|123|123|verified
+teacher|Sadi89|Arif Sadi|sadi@gmail.com|96385274120|1993-12-29|male|Puran, Dhaka|123|123|blocked
+teacher|teacher|Teacher|teacher@gmail.com|98765432100|1991-02-04|female|Romna, Dhaka|teacher|teacher|verified
