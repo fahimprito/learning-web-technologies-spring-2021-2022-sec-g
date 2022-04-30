@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 28, 2022 at 07:36 PM
+- Server version: 10.4.22-MariaDB
+- PHP Version: 8.1.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="midfahim" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="class_note">
+                CREATE TABLE `class_note` (
+                  `classid` int(30) NOT NULL,
+                  `class` varchar(30) NOT NULL,
+                  `section` varchar(30) NOT NULL,
+                  `filename` varchar(30) NOT NULL,
+                  PRIMARY KEY (`classid`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'midfahim'
+    -->
+    <database name="midfahim">
+        <!-- Table class_note -->
+        <table name="class_note">
+            <column name="classid">1</column>
+            <column name="class">webtech</column>
+            <column name="section">G</column>
+            <column name="filename">nullkisu.jpg</column>
+        </table>
+        <table name="class_note">
+            <column name="classid">102</column>
+            <column name="class">02</column>
+            <column name="section">B</column>
+            <column name="filename">Frequently Asked Questions_Reg</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,56 @@
+
+body {
+    background-color: rgb(97, 195, 228);
+}
+
+
+
+#p1{
+    color: rgb(16, 211, 92);
+}
+
+#d01{
+
+    background-color:rgb(54, 8, 63);
+	color:white; 
+	
+}
+
+#d1{
+
+    background-color:rgb(42, 60, 78); 
+	color:white; 
+    width: 90%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+	
+}
+
+
+
+#d2{
+
+    color:white; 
+
+}
+
+#d3{
+
+    background-color:rgb(54, 8, 63); color:white; 
+}
+
+#d4{
+
+    background-color:rgb(42, 60, 78); 
+	color:white; 
+    width: 90%;
+    border: 15px solid rgb(42, 75, 42);
+    padding: 50px;
+    margin: 20px;
+}
+
+#c5{
+
+    color: rgb(150, 60, 255);
+}

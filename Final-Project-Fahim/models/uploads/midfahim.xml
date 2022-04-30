@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Mar 28, 2022 at 07:36 PM
+- Server version: 10.4.22-MariaDB
+- PHP Version: 8.1.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="midfahim" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="academic_calender">
+                CREATE TABLE `academic_calender` (
+                  `date` date NOT NULL,
+                  `notice` varchar(100) NOT NULL,
+                  PRIMARY KEY (`date`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="class_note">
+                CREATE TABLE `class_note` (
+                  `classid` int(30) NOT NULL,
+                  `class` varchar(30) NOT NULL,
+                  `section` varchar(30) NOT NULL,
+                  `filename` varchar(30) NOT NULL,
+                  PRIMARY KEY (`classid`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="noticelist">
+                CREATE TABLE `noticelist` (
+                  `noticeid` int(20) NOT NULL,
+                  `title` varchar(30) NOT NULL,
+                  `recipient` varchar(30) NOT NULL,
+                  `date` date NOT NULL,
+                  `notice` varchar(300) NOT NULL,
+                  PRIMARY KEY (`noticeid`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="teacherclasslist">
+                CREATE TABLE `teacherclasslist` (
+                  `classid` int(20) NOT NULL,
+                  `class` varchar(20) NOT NULL,
+                  `section` varchar(20) NOT NULL,
+                  `teacher` varchar(30) NOT NULL,
+                  `room` int(20) NOT NULL,
+                  PRIMARY KEY (`classid`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT=&#039;teacher class list&#039;;
+            </pma:table>
+            <pma:table name="tstudentlist">
+                CREATE TABLE `tstudentlist` (
+                  `username` varchar(30) NOT NULL,
+                  `name` varchar(30) NOT NULL,
+                  `email` varchar(30) NOT NULL,
+                  `phone` int(30) NOT NULL,
+                  `dob` date NOT NULL,
+                  `gender` varchar(30) NOT NULL,
+                  `address` varchar(30) NOT NULL,
+                  `status` varchar(30) NOT NULL,
+                  PRIMARY KEY (`username`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'midfahim'
+    -->
+    <database name="midfahim">
+        <!-- Table academic_calender -->
+        <table name="academic_calender">
+            <column name="date">2022-03-01</column>
+            <column name="notice">New Teacher&#039;s Orientation</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-03-10</column>
+            <column name="notice">General Meeting</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-03-15</column>
+            <column name="notice">Adding/Droping</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-03-25</column>
+            <column name="notice">Submission of TSF</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-03-26</column>
+            <column name="notice">Mid Lab Exam</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-03-31</column>
+            <column name="notice">Mid Theory Exam</column>
+        </table>
+        <table name="academic_calender">
+            <column name="date">2022-04-09</column>
+            <column name="notice">Semester break</column>
+        </table>
+        <!-- Table class_note -->
+        <table name="class_note">
+            <column name="classid">1</column>
+            <column name="class">webtech</column>
+            <column name="section">G</column>
+            <column name="filename">nullkisu.jpg</column>
+        </table>
+        <table name="class_note">
+            <column name="classid">102</column>
+            <column name="class">02</column>
+            <column name="section">B</column>
+            <column name="filename">Frequently Asked Questions_Reg</column>
+        </table>
+        <!-- Table noticelist -->
+        <table name="noticelist">
+            <column name="noticeid">1</column>
+            <column name="title">Notice for Document Submission</column>
+            <column name="recipient">everyone</column>
+            <column name="date">2022-03-03</column>
+            <column name="notice">This is to notify students to submit their documents by March 15, 2022.</column>
+        </table>
+        <table name="noticelist">
+            <column name="noticeid">2</column>
+            <column name="title">Student ID distribution</column>
+            <column name="recipient">student</column>
+            <column name="date">2022-03-10</column>
+            <column name="notice">Students who didn’t receive their student ID yet are requested to contact the information office.</column>
+        </table>
+        <table name="noticelist">
+            <column name="noticeid">3</column>
+            <column name="title">Deadline for Clearing Tuition </column>
+            <column name="recipient">everyone</column>
+            <column name="date">2022-03-15</column>
+            <column name="notice">To whomever applicable, students are advised to clear their Tuition Fees by Tuesday, March 10, 2022.</column>
+        </table>
+        <table name="noticelist">
+            <column name="noticeid">4</column>
+            <column name="title">AIUB Premier League 2022 (APL</column>
+            <column name="recipient">everyone</column>
+            <column name="date">2022-03-24</column>
+            <column name="notice">Students who are interested to participate in the APL T10 Cricket Tournament, 2022 are requested to register their name at the Office of Sports within 14th March 2022 for the selection session.</column>
+        </table>
+        <!-- Table teacherclasslist -->
+        <table name="teacherclasslist">
+            <column name="classid">1</column>
+            <column name="class">webtech</column>
+            <column name="section">G</column>
+            <column name="teacher">Md Al Amin</column>
+            <column name="room">5108</column>
+        </table>
+        <table name="teacherclasslist">
+            <column name="classid">5</column>
+            <column name="class">microprocessor</column>
+            <column name="section">M</column>
+            <column name="teacher">fahim ahmed</column>
+            <column name="room">1005</column>
+        </table>
+        <table name="teacherclasslist">
+            <column name="classid">106</column>
+            <column name="class">software requirement</column>
+            <column name="section">D</column>
+            <column name="teacher">dr. jubair</column>
+            <column name="room">1105</column>
+        </table>
+        <table name="teacherclasslist">
+            <column name="classid">402</column>
+            <column name="class">DLD LAB</column>
+            <column name="section">E</column>
+            <column name="teacher">dr. nadia</column>
+            <column name="room">2201</column>
+        </table>
+        <table name="teacherclasslist">
+            <column name="classid">550</column>
+            <column name="class">computer network</column>
+            <column name="section">H</column>
+            <column name="teacher">Mojumder fahim</column>
+            <column name="room">3003</column>
+        </table>
+        <!-- Table tstudentlist -->
+        <table name="tstudentlist">
+            <column name="username">amina</column>
+            <column name="name">amina hosen</column>
+            <column name="email">amina24@gmail.com</column>
+            <column name="phone">1845458769</column>
+            <column name="dob">2006-05-10</column>
+            <column name="gender">female</column>
+            <column name="address">mogbazar</column>
+            <column name="status">verified</column>
+        </table>
+        <table name="tstudentlist">
+            <column name="username">fahmed</column>
+            <column name="name">ahmed mojumder</column>
+            <column name="email">ahmed@gmail.com</column>
+            <column name="phone">1648576564</column>
+            <column name="dob">2012-03-15</column>
+            <column name="gender">male</column>
+            <column name="address">banasree, dhaka</column>
+            <column name="status">verified</column>
+        </table>
+        <table name="tstudentlist">
+            <column name="username">rafa</column>
+            <column name="name">rafa al</column>
+            <column name="email">rafa@yahoo.com</column>
+            <column name="phone">1845456488</column>
+            <column name="dob">2007-03-03</column>
+            <column name="gender">female</column>
+            <column name="address">maniknagar</column>
+            <column name="status">verified</column>
+        </table>
+        <table name="tstudentlist">
+            <column name="username">rafy6</column>
+            <column name="name">al rafy</column>
+            <column name="email">rafy6@gmail.com</column>
+            <column name="phone">1778594523</column>
+            <column name="dob">2012-03-31</column>
+            <column name="gender">male</column>
+            <column name="address">khilgaon</column>
+            <column name="status">verified</column>
+        </table>
+        <table name="tstudentlist">
+            <column name="username">rasen</column>
+            <column name="name">md rasen</column>
+            <column name="email">rasen@aiub.com</column>
+            <column name="phone">1845796253</column>
+            <column name="dob">2015-06-12</column>
+            <column name="gender">male</column>
+            <column name="address">mogbazar</column>
+            <column name="status">verified</column>
+        </table>
+    </database>
+</pma_xml_export>
